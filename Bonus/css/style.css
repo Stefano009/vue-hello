@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.font-large {
+    font-size: 4rem;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+img {
+    padding: 5rem;
+    height: 40rem;
+    width: 40rem;
+    border-radius: 50%;
+}
+
+button {
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
